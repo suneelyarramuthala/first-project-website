@@ -1,0 +1,95 @@
+JavaScript Form Object
+In this JavaScript Tutorial you will learn about JavaScript form object, properties of form object, action – elements[], encoding, length, method, name, target, button, checkbox, FileUpload, hidden, password, radio, reset, select, submit, text, textarea and methods of form object.
+
+Form Object:
+form object is a Browser object of JavaScript used to access an HTML form. If a user wants to access all forms within a document then he can use the forms array. The form object is actually a property of document object that is uniquely created by the browser for each form present in a document. The properties and methods associated with form object are used to access the form fields, attributes and controls associated with forms.
+
+Properties of Form Object:
+action
+elements[]
+encoding
+length
+method
+name
+target
+button
+checkbox
+FileUpload
+hidden
+password
+radio
+reset
+select
+submit
+text
+textarea
+action:
+action property of form object is used to access the action attribute present in HTML associated with the <form> tag. This property is a read or write property and its value is a string.
+
+elements[]:
+elements property of form object is an array used to access any element of the form. It contains all fields and controls present in the form. The user can access any element associated with the form by using the looping concept on the elements array.
+
+encoding:
+The encoding property of a form object is used to access the enctype attribute present in HTML associated with the <form> tag. This property is a read or write property and its value is a string. This property helps determine the way of encoding the form data.
+
+length:
+length property of form object is used to specify the number of elements in the form. This denotes the length of the elements array associated with the form.
+
+method:
+method property of form object is used to access the method attribute present in HTML associated with the <form> tag. This property is a read or write property and its value is a string. This property helps determine the method by which the form is submitted.
+
+name:
+name property of form object denotes the form name.
+
+target:
+target property of form object is used to access the target attribute present in HTML associated with the <form> tag. This property denotes the name of the target window to which form it is to be submitted into.
+
+button:
+The button property of form object denotes the button GUI control placed in the form.
+
+checkbox:
+checkbox property of form object denotes the checkbox field placed in the form.
+
+FileUpload:
+FileUpload property of form object denotes the file upload field placed in the form..
+
+hidden:
+The hidden property of form object denotes the hidden field placed in the form.
+
+password:
+password property of form object denotes the object that is placed as a password field in the form.
+
+radio:
+radio property of form object denotes the radio button field placed in the form.
+
+reset:
+As the name implies, the reset property of form object denotes the object placed as reset button in the form.
+
+select:
+select property of form object denotes the selection list object placed in the form.
+
+submit:
+submit property of form object denotes the submit button field that is placed in the form.
+
+text:
+text property of form object denotes the text field placed in the form.
+
+textarea:
+textarea property of form object denotes the text area field placed in the form.
+
+
+
+Methods of form object:
+reset()
+submit()
+handleEvent()
+reset():
+reset() method of form object is used to reset a form.
+
+submit():
+submit() method of form object is used to submit a form.
+
+handleEvent():
+handleEvent() method of form object is used to start or invoke a form’s event handler for a specified event.
+
+
