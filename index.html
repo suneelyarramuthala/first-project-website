@@ -1,13 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>sun's website</title>
-    </head>
-    <body>
-        <!--hi-->
-        <h1>hello</h1>
-        <h2>hi this is suneel</h2>
-        <H1>hii</H1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_cqWFAHew1U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </body>
+<html lang="en">
+<head>
+<title>sun's website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+      <h2>suneel's website</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><strong>suneel kumar yarramuthala</strong></li>
+      <li><a href="https://www.facebook.com/ys.kumar.94/">facebook</a></li>
+      <li><a href="https://www.instagram.com/i_m_doesn_t_matter_to_u/">instagram</a></li>
+      <li><a href="https://twitter.com/Sunil18091760 ">twitter</a></li>
+      <li> <a href="mailto:yarramuthalasunil@gmail.com">mail</a></li>
+      <li><a href="tel:+919949906889">cell:+919949906889</a></li>
+    </ul>
+  </nav>
+  
+  <h1>stories</h1>
+  <a  href="https://suneelyarramuthala.github.io/new-html/judging.html">trees are going back</a>
+  <h1>resume</h1>
+  <a href="https://suneelyarramuthala.github.io/new-html/resume.html">my resume</a>
+  <a href="https://suneelyarramuthala.github.io/new-html/layout.html"><h3>google search</h3></a>
+ </section>
+
+<footer>
+<h4>GITHUB</h4>  <a href="https://github.com/suneelyarramuthala">suneelyarramuthala</a>
+</footer>
+
+</body>
 </html>
